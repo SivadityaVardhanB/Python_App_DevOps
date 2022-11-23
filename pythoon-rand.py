@@ -4,7 +4,7 @@ a = random.randint(1, 10000)
 b = random.randint(1, 10000)
 c = a+b
 
-with open('./Pyhton_App_DevOps/Result.txt', 'a+') as result:
+with open('./Result.txt', 'a+') as result:
     result.seek(0)
     data = result.read(100)
     if len(data) > 0:
